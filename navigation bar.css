@@ -1,0 +1,48 @@
+html{
+	background-color: black;
+	background-image: url("main_image.jpg");
+}
+
+ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: -5px;
+	overflow: hidden;
+	background-color: #444444;
+	position: sticky;
+	top: 0px;
+
+
+}
+
+li a{
+	float: left;
+	display: black;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	border-right: 1px solid black;
+	min-width: 60px;
+}
+
+li a:hover{
+	background-color: #222222;
+
+	animation: myGlowAnimations;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes myGlowAnimations{
+	50%{text-shadow: 0px 0px 10px yellow;}
+}
+
+img{
+	border:1px solid;
+	border-color: black;
+	margin: 5px;
+	margin-left: -5px;
+	margin-right: -20px;
+	margin-bottom: 5px;
+}
